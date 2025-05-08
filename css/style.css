@@ -519,7 +519,7 @@ select:visited {
 }
 
 .apbc-nav-menu ul li a {
-  font-size:14px;
+  font-size:12px;
   padding: 26px 7px;
   color: #ffffff;
   font-weight: 500;
@@ -1756,4 +1756,10 @@ font-size:17px !important; line-height:26px !important; font-weight: 400;
     font-size: 20px;
     font-weight: 700;
     color: #fff;
+}
+
+.blink-bg{background:#f6c214; color:#0a2d4b; padding:3px 8px; border-radius:10px;} 
+#blink {
+font-weight: bold;
+transition: 0.5s;
 }
