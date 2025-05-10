@@ -1192,11 +1192,6 @@ footer{
 .appointment{ border-radius:20px !important; background-color:#f8c301; padding:5px 10px; color:#000; letter-spacing:1px; font-size:14px; line-height:22px; border:none; font-weight:normal; margin:auto; width:48%; text-align:center;}
 .appointment:hover{ background-color:#01458E; color:#fff;}
 
-@media screen and (max-width:500px) {
-.apbc-hero-slider .apbc-single-item {
-  min-height: 400px;
-}	
-}
 
 
 .welcome-section {
@@ -1358,7 +1353,18 @@ display:block;
 .hindi-translator-mob{ display:none;}
 
 @media (min-width: 320px) and (max-width: 769px) {
-    
+
+.banner {
+background: #002059 !important;
+}
+.apbc-hero-slider .apbc-single-item::before{ display:none;}
+
+.banner-mob {
+display: block !important;
+} 
+
+.apbc-slide-left{ display:none;}  
+	
 #videCont{width:100% !important; height:300px !important;}
 
 .apbc-header-section .apbc-logo-wrapper {
@@ -1368,7 +1374,7 @@ display:block;
   width: 130px;
 }
 .apbc-hero-slider .apbc-single-item {
-  padding: 160px 0;
+  padding: 0px 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
@@ -1440,7 +1446,6 @@ font-size:17px !important; line-height:26px !important; font-weight: 400;
 .checkup-camp-banner {
   padding: 0px 0 20px 0px !important;
 }
-.banner-bg{ position:static !important;}
 .banner-caption h1 {
   color: #1a2d62 !important;
   font-weight: 700;
@@ -1628,20 +1633,7 @@ font-size:17px !important; line-height:26px !important; font-weight: 400;
 
 .free-checkup{ position:absolute; bottom:10px; right:10px; z-index:99999;}
 .checkup-camp-banner{ position:relative; padding: 240px 0 90px 0px;}
-.banner-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 0;
-}
 
-.banner-bg img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 .banner-caption {
   text-align:center;
 }
@@ -1756,4 +1748,11 @@ font-size:17px !important; line-height:26px !important; font-weight: 400;
 #blink {
 font-weight: bold;
 transition: 0.5s;
+}
+
+.banner {
+	background: url(../img/slide1.jpg) center top no-repeat;
+}
+.banner-mob {
+display: none;
 }
