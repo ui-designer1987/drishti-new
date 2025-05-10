@@ -479,10 +479,10 @@ select:visited {
   background:#FFF;
   padding:15px;
   border-radius:0 0 10px 10px;
+  display:inline-block;
 }
 
 .apbc-header-section .apbc-logo-wrapper a {
-  width: 100%;
   display: inline-block;
 }
 
@@ -519,8 +519,8 @@ select:visited {
 }
 
 .apbc-nav-menu ul li a {
-  font-size:14px;
-  padding: 26px 10px;
+  font-size:12px;
+  padding: 26px 7px;
   color: #ffffff;
   font-weight: 500;
   text-transform: capitalize;
@@ -557,13 +557,6 @@ select:visited {
   border: 2px solid transparent;
 }
 
-.apbc-sidebar-btn a:hover,
-.apbc-mobile-menu-open a:hover {
-  background-color: transparent;
-  border: 2px solid #fecc00;
-  color: #000625;
-}
-
 @media (max-width: 991.98px) {
   .apbc-sidebar-btn {
     display: none;
@@ -576,7 +569,8 @@ select:visited {
 
 @media (max-width: 991.98px) {
   .apbc-mobile-menu-open {
-    display:inline;
+    display:block;
+	margin-top:7%;
   }
 }
 
