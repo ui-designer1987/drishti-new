@@ -1633,6 +1633,20 @@ font-size:17px !important; line-height:26px !important; font-weight: 400;
 
 .free-checkup{ position:absolute; bottom:10px; right:10px; z-index:99999;}
 .checkup-camp-banner{ position:relative; padding: 240px 0 90px 0px;}
+.banner-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.banner-bg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .banner-caption {
   text-align:center;
